@@ -8,7 +8,7 @@ This repository is an official implementation of the ICCV 2023 paper "[Group Pos
 We are working hard on following items.
 
 - [ ] Release arXiv paper 
-- [ ] Release [PaddlePaddle](https://www.paddlepaddle.org.cn/) scripts
+- [x] Release [PaddlePaddle scripts](https://github.com/Michel-liu/GroupPose-Paddle)
 - [x] Release train&test scripts
 - [x] Release checkpoints 
 
