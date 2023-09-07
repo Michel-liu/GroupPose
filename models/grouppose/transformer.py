@@ -189,7 +189,7 @@ class Transformer(nn.Module):
                 spatial_shapes=spatial_shapes,
                 valid_ratios=valid_ratios)
         if self.two_stage_type == 'standard':
-            mix_refpoint = enc_outputs_pose_coord_sigmoid
+            mix_refpoint = enc_outputs_pose_coord_sigmoid[:, :, 2:]
             mix_embedding = tgt_undetach
         else:
             mix_refpoint = None
